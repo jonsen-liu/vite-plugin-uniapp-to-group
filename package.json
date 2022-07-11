@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-uniapp-to-group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "jonsen_liu",
   "license": "MIT",
   "description": "uniapp开发头条小程序使用抖音团购模板的vite转换插件",
