@@ -11,7 +11,12 @@
 
 ```javascript
   // vite.config.ts
+  
+  // 这样直接引入使用好像会报错
   import UniappToGroup from 'vite-plugin-uniapp-to-group'
+  // 这样引入引入使用不会  原因目前未知，欢迎提出解决
+import UniappToGroup from './node_modules/vite-plugin-uniapp-to-group/src/index'
+
 
   export default defineConfig({
     plugins: [

@@ -1,4 +1,4 @@
-import type { Plugin } from 'vite'
+import type { PluginOption } from 'vite'
 
 export interface APP {
   pages: string[]
@@ -20,7 +20,7 @@ export interface TYPE_OPTIONS {
   app: APP
 }
 
-export default function UniappToGroup (options: TYPE_OPTIONS): Plugin {
+export default function UniappToGroup (options: TYPE_OPTIONS): PluginOption {
 	let packages: PACKAGE = {
 		ttPlugins: {
 			dependencies: {}

@@ -5,14 +5,18 @@
   "license": "MIT",
   "description": "uniapp开发头条小程序使用抖音团购模板的vite转换插件",
   "main": "src/index.ts",
-  "keywords": ["uniapp", "uniapp-to-group", "vite-plugin"],
+  "keywords": [
+    "uniapp",
+    "uniapp-to-group",
+    "vite-plugin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonsen-liu/vite-plugin-uniapp-to-group.git"
   },
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^4.7.4",
-    "vite": "^2.9.14"
+    "typescript": "*",
+    "vite": "*"
   }
 }
